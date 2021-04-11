@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>樂活幼兒園</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--小圖示 找圖像 >> font awesome4.7-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--婉宜-->
+    <style>
+        .row{
+            padding: 50px;
+        }
+        .card:hover{
+            transform: translateY(-30px);
+        }
+        .card:hover .card-body{
+            background-image: linear-gradient(0deg,#d7acff,#1e62c9);
+        }
+        .card:hover h3{
+            color: rgb(255, 255, 255);
+        }
+        .card:hover h6{
+            color: rgb(245, 245, 157);
+        }
+        .card:hover a{
+            color: rgb(255, 255, 255);
+            border-bottom-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+
+<body background="index/背景.jpg" style="overflow-x: hidden;">
+
+    <!--頁首-->
+    <!--navbar功能選單-->
+    <nav class="navbar sticky-top navbar-expand-lg  navbar-light "
+        style="background-image: url('index/頁首.png') ;height: 200px;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="img-fluid mb-2" style="height: 150px;"src="index/icon.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!--如果mr改ml 靠左對齊改靠右對齊 m是置中-->
+                <ul class="navbar-nav mr-auto mt-1">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            園所介紹
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="關於我們.html">關於我們</a>
+                            <a class="dropdown-item" href="師資介紹.html">師資介紹</a>
+                            <a class="dropdown-item" href="環境介紹.html">環境介紹</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="教學理念.html">教學理念</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            班級介紹
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="普通班.html">普通班</a>
+                            <a class="dropdown-item" href="多元課程.html">多元課程</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="寶貝相簿.html">寶貝相簿</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="最新消息.html">最新消息</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="家長留言板.html">家長留言板</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="線上預約.html">線上預約</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        </div>
+    </nav>
+
+    <!--內文-->
+    <div class="container">
+        <!--跑馬燈 https://www.wibibi.com/info.php?tid=68-->
+        
+        <marquee direction="right" height="300" scrollamount="5" behavior="alternate">
+            <img style="width: 400px;height: 300px;" src="生活照/1.jpg" alt="">
+            <img style="width: 400px;height: 300px;" src="生活照/2.jpg" alt="">
+            <img style="width: 400px;height: 300px;" src="生活照/3.jpg" alt="">
+            <img style="width: 400px;height: 300px;" src="生活照/4.jpg" alt="">
+            <img style="width: 400px;height: 300px;" src="生活照/6.jpg" alt="">
+            <img style="width: 400px;height: 300px;" src="生活照/5.jpg" alt="">
+        </marquee>
+
+        <!--名稱 title-->
+        <h1 class="my-3" style="color: wheat;">Photoes / 寶貝相簿</h1>
+
+        <!--網站地圖導覽 路徑 b4-breadcrumb-defult-->
+        <nav class="breadcrumb">
+            <a class="breadcrumb-item" href="index.html">Home</a>
+            <span class="breadcrumb-item active">寶貝相簿</span>
+        </nav>
+
+        <!--相簿 card-->
+        <div class="row">
+            <div class="col-lg-4 border-light mb-4" style="max-width: 23rem;" data-aos="fade-up" data-aos-duration="1500">
+                <div class="card mb-4">
+                    <img class="card-img-top img-fluid" src="運動會/0.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">運動會🏆</h3>
+                        <h6 class="card-subtitle mb-2">2021.04.10(六)</h6>
+                        <a href="運動會.html" class="btn btn-sm" style="float: right;">Read More　>></a>
+                    </div>
+                    <div class="card-footer text-muted mb-3" style="background-color: rgb(252, 252, 252);height: 30px;">
+                        Posted on April 12, 2021 by
+                        <a href="" style="color: rgb(236, 214, 85);">Yu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 border-light mb-4" style="max-width: 23rem;" data-aos="fade-up" data-aos-duration="1500">
+                <div class="card mb-4">
+                    <img class="card-img-top img-fluid" src="聖誕/0.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">聖誕活動🎅</h3>
+                        <h6 class="card-subtitle mb-2">2020.12.25(五)</h6>
+                        <a href="聖誕.html" class="btn btn-sm" style="float: right;">Read More　>></a>
+                    </div>
+                    <div class="card-footer text-muted mb-3" style="background-color: rgb(252, 252, 252);height: 30px;">
+                        Posted on December 28, 2021 by
+                        <a href="" style="color: rgb(236, 214, 85);">Yu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 border-light mb-4" style="max-width: 23rem;" data-aos="fade-up" data-aos-duration="1500">
+                <div class="card mb-4">
+                    <img class="card-img-top img-fluid" src="萬聖/0.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">萬聖節🎃</h3>
+                        <h6 class="card-subtitle mb-2">2020.11.01(六)</h6>
+                        <a href="萬聖.html" class="btn btn-sm" style="float: right;">Read More　>></a>
+                    </div>
+                    <div class="card-footer text-muted mb-3" style="background-color: rgb(252, 252, 252);height: 30px;">
+                        Posted on November 2, 2021 by
+                        <a href="" style="color: rgb(236, 214, 85);">Yu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 border-light mb-4" style="max-width: 23rem;" data-aos="fade-up" data-aos-duration="1500">
+                <div class="card mb-4">
+                    <img class="card-img-top img-fluid" src="畢典/0.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">畢業典禮👨‍🎓👩‍🎓</h3>
+                        <h6 class="card-subtitle mb-2">2020.06.30(二)</h6>
+                        <a href="畢典.html" class="btn btn-sm" style="float: right;">Read More　>></a>
+                    </div>
+                    <div class="card-footer text-muted mb-3" style="background-color: rgb(252, 252, 252);height: 30px;">
+                        Posted on July 2, 2021 by
+                        <a href="" style="color: rgb(236, 214, 85);">Yu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 border-light mb-4" style="max-width: 23rem;" data-aos="fade-up" data-aos-duration="1500">
+                <div class="card mb-4">
+                    <img class="card-img-top img-fluid" src="畢照/0.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">畢業沙容照🧚‍♀️</h3>
+                        <h6 class="card-subtitle mb-2">2020.04.03(五)</h6>
+                        <a href="畢照.html" class="btn btn-sm" style="float: right;">Read More　>></a>
+                    </div>
+                    <div class="card-footer text-muted mb-3" style="background-color: rgb(252, 252, 252);height: 30px;">
+                        Posted on April 5, 2021 by
+                        <a href="" style="color: rgb(236, 214, 85);">Yu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--頁尾聯絡資訊-->
+    <div class="container-fluid">
+        <div class="row" style="background-image: url(index/頁尾.png);">
+            <div class="col-lg-5 mb-4 my-5 "  >
+                <div>
+                <img class="img-fluid rounded img-hover" style="height: 200px;float:left;" src="index/icon.png" alt="" >
+                <h3 class="mb-4 ml-5 mt-3" style="color: rgb(255, 255, 255);"><strong>樂活幼兒園</strong></h3></div>
+                <h5 class="mb-4 ml-5">讓您家小寶貝快樂學習是我們的責任！</h5>
+                <p class=" ml-5">地址：632301 雲林縣虎尾鎮文化路64號 No.64</p>
+                <p class=" ml-5">電話：886-5-6315000</p>
+                <p class=" ml-5">E-Mail：babyhome@nfu.edu.tw</p>
+            </div>
+            <div class="col-lg-2 mb-4 my-5  text-center">
+                <h5 class="mb-4 mt-5" style="color: rgb(141, 92, 43);">園所介紹</h5>
+                <a class="dropdown-item mb-3" href="關於我們.html">關於我們</a>
+                <a class="dropdown-item mb-3" href="關於我們.html">師資介紹</a>
+                <a class="dropdown-item mb-3" href="關於我們.html">環境介紹</a>
+                <a class="dropdown-item mb-3" href="關於我們.html">教學理念</a>
+            </div>
+            <div class="col-lg-2 mb-4 my-5 text-center">
+                <h5 class="mb-4 mt-5" style="color: rgb(141, 92, 43);">班級介紹</h5>
+                <a class="dropdown-item mb-3" href="關於我們.html">大班</a>
+                <a class="dropdown-item mb-3" href="關於我們.html">中班</a>
+                <a class="dropdown-item mb-3" href="關於我們.html">小班</a>
+                <a class="dropdown-item mb-3" href="關於我們.html">多元課程</a>
+
+            </div>
+            <div class="col-lg-2 mb-4 my-5 text-center">
+                <h5 class="mb-4 mt-5" style="color: rgb(141, 92, 43);">其他資訊</h5>
+                <a class="dropdown-item mb-3" href="關於我們.html">寶貝相簿</a>
+                <a class="dropdown-item mb-3" href="關於我們.html">最新消息</a>
+                <a class="dropdown-item mb-3" href="關於我們.html">家長留言板</a>
+                <a class="dropdown-item mb-3" href="關於我們.html">線上預約</a>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bg-dark py-4">
+        <p class="text-center text-white">雲林公立樂活幼兒園 版權所有 &copy; Copyright 2011.All Rights Reserved.</p>
+    </footer>
+
+
+    <!-- AOS JS 前4行-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--網路搜尋holder.js  點擊cdnjs: https://cdnjs.com/libraries/holder  複製橘色框的網站: https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.7/holder.min.js-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.7/holder.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
